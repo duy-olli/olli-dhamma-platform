@@ -1,0 +1,9 @@
+message-bulk-delete-success = 'Dữ liệu với ID %idlist% đã được xoá thành công.'
+message-bulk-delete-fail = 'Xoá nhiều dữ liệu thất bại.'
+message-bulk-changestatus-success = 'Dữ liệu với ID %idlist% đã được thay đổi trạng thái thành công.'
+message-bulk-changestatus-fail = 'Thay đổi trạng thái nhiều dữ liệu thất bại.'
+message-no-bulk-action = 'Chưa chọn hành động thực thi.'
+message-file-upload-error-max-size = "Tập tin quá lớn."
+message-file-upload-error-allowed-format = "Định dạng tập tin không được chấp nhận."
+queue-put-failed = "Thêm vào hàng đợi thất bại."
+mysql-connect-failed = " Kết nối dữ liệu máy chủ thất bại."

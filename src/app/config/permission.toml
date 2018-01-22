@@ -1,0 +1,45 @@
+publicEndpoint = [
+  '/v1/users/login/email',
+  '/v1/users/login/facebook',
+  '/v1/users/login/google',
+  '/v1/users/register',
+  '/v1/users/register/delivered',
+  '/v1/users/activate',
+  '/v1/users/checkemail',
+  '/v1/users/forgotpassword',
+  '/v1/users/checkforgot',
+  '/v1/users/resetpassword',
+  '/v1/users/updatepasswordcode',
+  '/v1/users/checkupdatepassword',
+  '/v1/users/updatepassword',
+  '/v1/songs/test',
+]
+
+[groups]
+default = 'guest'
+defaultOauth = 'member'
+
+[groups.guest]
+User = ['v1:index|logout']
+
+[groups.administrator]
+User = [
+  'v1:index|*',
+]
+Song = [
+  'v1:index|*'
+]
+Youtube = [
+  'v1:index|*'
+]
+Dashboard = [
+  'v1:index|*',
+]
+
+[groups.moderator]
+User = ['v1:index|*']
+
+[groups.member]
+User = [
+  'v1:index|logout',
+]

@@ -1,0 +1,195 @@
+{
+  "default": {
+    "list": "Danh sách",
+    "create": "Thêm",
+    "import": "Import",
+    "previousPage": "Trước",
+    "nextPage": "Sau",
+    "page": "Trang",
+    "changePassword": "Đổi mật khẩu",
+    "logout": "Thoát",
+    "search": "Tìm kiếm",
+    "all": "Tất cả",
+    "filter": "Lọc",
+    "reset": "Reset",
+    "selectAction": "Chọn tác vụ",
+    "submit": "Thực thi",
+    "backToHome": "Trở về Trang chủ",
+    "forbidden": "Không có quyền truy cập",
+    "pageNotFound": "Không tìm thấy trang",
+    "noContent": "Chưa có dữ liệu",
+    "delete": "Xoá",
+    "update": "Cập nhật",
+    "download": "Tải xuống",
+    "upload": "Tải lên",
+    "downloading": "Đang tải",
+    "notify": "Thông báo",
+    "refresh": "Làm mới",
+    "updateSearchEngine": "Cập nhật máy tìm kiếm",
+    "msg": {
+      "deleteConfirm": "Bạn chắc muốn xoá?",
+      "confirm": "Có",
+      "cancel": "Không",
+      "deleteSuccess": "thành công",
+      "noActionChosen": "Chưa chọn tác vụ",
+      "noItemSelected": "Chưa chọn đối tượng"
+    }
+  },
+  "navigation": {
+    "dashboard": "Tổng quan",
+    "users": "Người dùng",
+    "songs": "Bài hát"
+  },
+  "pages": {
+    "notfound": {
+      "title": "Không tìm thấy trang"
+    },
+    "forbidden": {
+      "title": "Không có quyền truy cập"
+    },
+    "admin": {
+      "dashboard": {
+        "title": "Tổng quan"
+      },
+      "users": {
+        "title": "Người dùng",
+        "create": {
+          "title": "Thêm người dùng",
+          "description": "Thông tin người dùng",
+          "extraDescription": "Thông tin chi tiết người dùng"
+        },
+        "edit": {
+          "title": "Cập nhật người dùng",
+          "description": "Cập nhật thông tin người dùng",
+          "extraDescription": "Cập nhật thông tin chi tiết người dùng"
+        },
+        "changePassword": {
+          "title": "Thay đổi mật khẩu",
+          "description": "Thay đổi mật khẩu",
+          "extraDescription": "Thông tin mật khẩu người dùng"
+        },
+        "label": {
+          "name": "Tên",
+          "email": "Email",
+          "password": "Mật khẩu",
+          "phone": "Số ĐT",
+          "group": "Nhóm",
+          "status": "Trạng thái",
+          "activate": "Kích hoạt?",
+          "verifyType": "Xác thực bằng",
+          "dateCreated": "Ngày tạo",
+          "delete": "Xoá",
+          "enable": "Đang sử dụng",
+          "disable": "Khoá",
+          "selectGroup": "Chọn Nhóm",
+          "selectStatus": "Chọn Trạng Thái",
+          "selectVerifyType": "Chọn loại Kích hoạt",
+          "oldPassword": "Mật khẩu cũ",
+          "newPassword": "Mật khẩu mới",
+          "repeatNewPassword": "Nhập lại mật khẩu mới",
+          "changePassword": "Đổi mật khẩu",
+          "search": "Tìm kiếm theo email, tên, số điện thoại"
+        },
+        "msg": {
+          "nameIsRequired": "Tên là bắt buộc",
+          "emailIsRequired": "Email là bắt buộc",
+          "emailInvalid": "Email không có giá trị",
+          "passwordIsRequired": "Mật khẩu là bắt buộc",
+          "groupIsRequired": "Nhóm là bắt buộc",
+          "statusIsRequired": "Trạng thái là bắt buộc",
+          "verifyTypeIsRequired": "Loại kích hoạt là bắt buộc",
+          "oldPasswordIsRequired": "Mật khẩu cũ là bắt buộc",
+          "newPasswordIsRequired": "Mật khẩu mới là bắt buộc",
+          "repeatNewPasswordIsRequired": "Nhập lại mạt khẩu là bắt buộc",
+          "createSuccess": "Thêm người dùng thành công",
+          "updateSuccess": "Cập nhật người dùng thành công",
+          "changePasswordSuccess": "Đổi mật khẩu người dùng thành công"
+        }
+      },
+      "login": {
+        "title": "Đăng nhập",
+        "label": {
+          "email": "Email",
+          "password": "Mật khẩu",
+          "login": "Đăng nhập"
+        },
+        "msg": {
+          "emailIsRequired": "Vui lòng nhập địa chỉ email",
+          "emailInvalid": "Vui lòng nhập email có giá trị",
+          "passwordIsRequired": "Vui lòng nhập mật khẩu"
+        }
+      },
+      "songs": {
+        "title": "Bài hát",
+        "create": {
+          "title": "Thêm bài hát từ tập tin",
+          "description": "Thông tin bài hát",
+          "extraDescription": "Chi tiết thông tin bài hát"
+        },
+        "edit": {
+          "title": "Sửa bài hát",
+          "description": "Thông tin bài hát",
+          "extraDescription": "Sửa thông tin bài hát"
+        },
+        "label": {
+          "name": "Tên",
+          "title": "Tiêu đề",
+          "artist": "Ca sĩ",
+          "nctkey": "NCT ID",
+          "status": "Trạng thái",
+          "genre": "Thể loại",
+          "downloadstatus": "Trạng thái tải",
+          "dateCreated": "Ngày tạo",
+          "delete": "Xoá",
+          "enable": "Hiện",
+          "disable": "Ẩn",
+          "selectStatus": "Chọn trạng thái",
+          "selectFiles": "Chọn tập tin",
+          "import": "Bắt đầu nhập",
+          "titleUploadNotification": "Nhập bài hát",
+          "download": "Tải xuống máy chủ",
+          "downloadLink": "Đường dẫn tải",
+          "listenLink": "Đường dẫn nghe",
+          "search":
+            "Tìm kiếm theo ID, tên, tiêu đề, ca sĩ, NCT key, bộ sưu tập, thể loại",
+          "size": "Kích thước",
+          "channel": "Kênh"
+        },
+        "msg": {
+          "fileTypeAllowed": "Định dạng tập tin được chấp nhận là xlsx,xls.",
+          "uploadZero":
+            "Không thêm được bài hát nào, có thể tập tin này đã được cập nhật rồi.",
+          "uploadSuccess": " bài hát đã được cập nhật.",
+          "putToQueueDowloadSuccess":
+            "Bài hát <strong>###name###</strong> đang được tải xuống máy chủ.",
+          "nameUpdateSuccess":
+            "Tên bài hát <strong>###name###</strong> đã được cập nhật.",
+          "artistUpdateSuccess":
+            "Ca sĩ của bài <strong>###name###</strong> đã được cập nhật.",
+          "genreUpdateSuccess":
+            "Thể loại của bài <strong>###name###</strong> đã được cập nhật.",
+          "statusUpdateSuccess":
+            "Trạng thái của bài <strong>###name###</strong> đã được cập nhật.",
+          "downloadstatusUpdateSuccess":
+            "Trạng thái tải của bài <strong>###name###</strong> đã được cập nhật.",
+          "updateSuccess": "Thông tin bài hát đã được cập nhật."
+        }
+      },
+      "dashboards": {
+        "title": "Tổng quan",
+        "label": {
+          "dateCreated": "Ngày tạo (Ngày/Tháng/Năm)",
+          "logger": "Từ",
+          "level": "Mức độ",
+          "message": "Nội dung",
+          "context": "Lỗi"
+        }
+      }
+    },
+    "site": {
+      "home": {
+        "title": "Trang chủ"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+message-bulk-delete-success = 'Item with ID %idlist% was deleted successfully.'
+message-bulk-delete-fail = 'Deleted bulk failed.'
+message-bulk-changestatus-success = 'Item with ID %idlist% was change status successfully.'
+message-bulk-changestatus-fail = 'Change stauts bulk failed.'
+message-no-bulk-action = 'No action choose.'
+message-file-upload-error-max-size = "File size reach maximum allowed."
+message-file-upload-error-allowed-format = "File type is not allowed."
+queue-put-failed = "Queue put failed."
+mysql-connect-failed = "MySQL connect failed."

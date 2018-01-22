@@ -1,0 +1,45 @@
+prefix = '_music-olli_'
+title = 'Music OLLI'
+supportedLocales = ['en-us', 'vi-vn']
+timezone = 'Asia/Ho_Chi_Minh'
+modules = ['core', 'user', 'dashboard']
+
+[idv3]
+mutagenInspect = '/usr/local/bin/mutagen-inspect'
+mid3v2 = '/usr/local/bin/mid3v2'
+
+[cache]
+lifetime = 86400
+adapter = 'Libmemcached'
+[cache.client]
+\Memcached::OPT_HASH = '\Memcached::HASH_MD5'
+\Memcached::OPT_PREFIX_KEY = '_music-olli_.'
+
+[logger]
+path = '/app/storage/logs/'
+format = '[%datetime%] [%channel%] [%level_name%] %message% %context%\n'
+
+# Only using in production
+[annotations]
+annotationsDir = '/app/storage/cache/annotations/'
+
+# Only using in production
+[metadata]
+metaDataDir = '/app/storage/cache/metadata/'
+
+[users]
+directory = '/app/storage/files/users/'
+minsize = 100
+maxsize = 10000000
+mimes = ['image/jpeg', 'image/jpg', 'image/png']
+isoverwrite = false
+thumbsize = '300x200'
+mediumsize = '540x100'
+fullsize = '1200x1200'
+
+[dhammas]
+directory = '/app/storage/files/dhammas/'
+minsize = 100
+maxsize = 10000000
+mimes = ['audio/mpeg']
+isoverwrite = false

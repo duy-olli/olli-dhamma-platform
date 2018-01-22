@@ -1,0 +1,17 @@
+src/vendor/*
+src/app/storage/cache/volt/*
+src/app/storage/cache/data/*
+src/app/storage/cache/annotations/*
+src/app/storage/cache/metadata/*
+src/app/storage/files/users/*
+src/app/storage/files/dhammas/*
+src/app/storage/logs/*
+docker/cache/
+docker/config/development/
+src/composer.lock
+src/vue/node_modules/*
+src/vue/yarn.lock
+src/vue/yarn-error.log
+src/vue/package-lock.lock
+src/vue/.nuxt/*
+query-service/node_modules/*

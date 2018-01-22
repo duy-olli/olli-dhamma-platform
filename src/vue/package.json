@@ -1,0 +1,52 @@
+{
+  "name": "oll-music",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build-production": "cross-env NODE_ENV=production nuxt build",
+    "build-staging": "cross-env NODE_ENV=staging nuxt build",
+    "start-production": "cross-env NODE_ENV=production nuxt start",
+    "start-staging": "cross-env NODE_ENV=staging nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.1",
+    "@nuxtjs/pwa": "^2.0.4",
+    "aplayer": "^1.6.0",
+    "axios": "^0.17.1",
+    "compression-webpack-plugin": "^1.0.0",
+    "cross-env": "^5.0.5",
+    "dotenv": "^4.0.0",
+    "element-ui": "^2.0.7",
+    "flag-icon-css": "^2.9.0",
+    "font-awesome": "^4.7.0",
+    "https": "^1.0.0",
+    "js-cookie": "^2.1.4",
+    "jwt-decode": "^2.2.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.4",
+    "mini-toastr": "^0.6.5",
+    "node-sass": "^4.5.2",
+    "nuxt": "^1.0.0-rc11",
+    "prettysize": "^1.1.0",
+    "querystring": "^0.2.0",
+    "sass-loader": "^6.0.3",
+    "standard": "^10.0.3",
+    "sw-precache-webpack-plugin": "^0.11.4",
+    "vue": "^2.5.9",
+    "vue-i18n": "^7.1.1",
+    "vue-json-tree-view": "^2.1.1",
+    "vue-multiple-back-top": "^1.0.2",
+    "vue-notifications": "^0.8.0",
+    "vue-server-renderer": "^2.5.9",
+    "vue-template-compiler": "^2.5.9",
+    "vuex-router-sync": "^5.0.0",
+    "webpack-node-externals": "^1.6.0",
+    "whatwg-fetch": "^2.0.3"
+  }
+}

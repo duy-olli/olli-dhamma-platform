@@ -1,0 +1,211 @@
+[1001]
+statuscode = 404
+message = 'General: Not found'
+
+[1002]
+statuscode = 500
+message = 'Server internal error'
+
+[2001]
+statuscode = 404
+message = 'Data: Duplicate data'
+
+[2002]
+statuscode = 404
+message = 'Data: Not Found'
+
+[2003]
+statuscode = 404
+message = 'Failed to process data'
+
+[2004]
+statuscode = 404
+message = 'Data: Invalid'
+
+[2005]
+statuscode = 404
+message = 'Action failed'
+
+[2010]
+statuscode = 404
+message = 'Data: Not Found'
+
+[2020]
+statuscode = 500
+message = 'Data: Failed to create'
+
+[2030]
+statuscode = 500
+message = 'Data: Failed to update'
+
+[2040]
+statuscode = 500
+message = 'Data: Failed to delete'
+
+[2060]
+statuscode = 404
+message = 'Data: Rejected'
+
+[2070]
+statuscode = 403
+message = 'Data: Action not allowed'
+
+[2080]
+statuscode = 500
+message = 'Data: Bulk action failed'
+
+[2090]
+statuscode = 400
+message = 'Data Question: Not enough data'
+
+[2091]
+statuscode = 400
+message = 'Data Answer: Not enough data'
+
+[3006]
+statuscode = 404
+message = 'Auth: No authentication bearer present'
+
+[3007]
+statuscode = 404
+message = 'Auth: No username present'
+
+[3008]
+statuscode = 404
+message = 'Auth: Invalid authentication bearer type'
+
+[3009]
+statuscode = 404
+message = 'message-auth-bad-login'
+
+[3010]
+statuscode = 401
+message = 'Auth: Unauthorized'
+
+[3011]
+statuscode = 404
+message = 'Auth: No password present'
+
+[3020]
+statuscode = 403
+message = 'Auth: Forbidden'
+
+[3030]
+statuscode = 401
+message = 'Auth: Session expired'
+
+[3040]
+statuscode = 401
+message = 'auth-password-changed'
+
+[3041]
+statuscode = 200
+message = 'auth-account-already-existed'
+
+[3042]
+statuscode = 200
+message = 'auth-account-didnot-verified'
+
+[3043]
+statuscode = 200
+message = 'auth-account-new'
+
+[3044]
+statuscode = 200
+message = 'auth-account-need-update-password'
+
+[4001]
+statuscode = 404
+message = 'Google: No data'
+
+[4002]
+statuscode = 404
+message = 'Google: Bad login'
+
+[4003]
+statuscode = 404
+message = 'User: Not active'
+
+[4004]
+statuscode = 404
+message = 'User: Not found'
+
+[4005]
+statuscode = 404
+message = 'User: Registration failed'
+
+[4006]
+statuscode = 404
+message = 'User: Modification failed'
+
+[4007]
+statuscode = 404
+message = 'message-create-user-fail'
+
+[4011]
+statuscode = 404
+message = 'message-email-unique'
+
+[4013]
+statuscode = 404
+message = 'message-password-not-match'
+
+[4014]
+statuscode = 404
+message = 'message-send-activate-mail-fail'
+
+[4015]
+statuscode = 404
+message = 'message-missing-captcha'
+
+[4016]
+statuscode = 404
+message = 'message-user-captcha-fail'
+
+[4017]
+statuscode = 404
+message = 'message-user-old-password-not-match'
+
+[4018]
+statuscode = 404
+message = 'message-send-forgot-mail-fail'
+
+[4019]
+statuscode = 400
+message = 'USER_EVENT_PLAY_TIMES_END_REACHED'
+
+[4020]
+statuscode = 400
+message = 'USER_SEND_MAIL_FAIL'
+
+[5001]
+statuscode = 500
+message = 'message-file-upload-error-min-size'
+
+[5002]
+statuscode = 500
+message = 'message-file-upload-error-max-size'
+
+[5003]
+statuscode = 500
+message = 'message-file-upload-error-allowed-format'
+
+[5004]
+statuscode = 500
+message = 'message-file-upload-error'
+
+[5005]
+statuscode = 500
+message = 'message-file-delete-error'
+
+[23000]
+statuscode = 404
+message = 'Duplicate entry'
+
+[2300]
+statuscode = 404
+message = 'mysql-connect-failed'
+
+[2400]
+statuscode = 500
+message = 'queue-put-failed'

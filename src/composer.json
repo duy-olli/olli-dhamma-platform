@@ -1,0 +1,16 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "monolog/monolog": "^1.21",
+    "yosymfony/toml": "^0.3.3",
+    "mailgun/mailgun-php": "^2.3",
+    "guzzlehttp/psr7": "^1.4",
+    "psr/http-message": "^1.0",
+    "php-http/guzzle6-adapter": "^1.1",
+    "phpoffice/phpexcel": "^1.8",
+    "fightbulc/moment": "^1.26",
+    "ripaclub/sphinxsearch": "^0.8.1",
+    "google/apiclient":"^2.0",
+    "ddtraceweb/monolog-parser": "^1.2"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "default": {
+    "list": "List",
+    "create": "Add",
+    "import": "Import",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "page": "Page",
+    "changePassword": "Change password",
+    "logout": "Logout",
+    "search": "Search",
+    "all": "All",
+    "filter": "Filter",
+    "reset": "Reset",
+    "selectAction": "Select action",
+    "submit": "Submit",
+    "backToHome": "Back to Home",
+    "forbidden": "Forbidden",
+    "pageNotFound": "Page not found",
+    "noContent": "No content",
+    "delete": "Delete",
+    "update": "Update",
+    "download": "Download",
+    "upload": "Upload",
+    "downloading": "Download",
+    "notify": "Notify",
+    "refresh": "Refresh",
+    "updateSearchEngine": "Update Search Engine",
+    "msg": {
+      "deleteConfirm": "Are you sure to delete?",
+      "confirm": "Yes",
+      "cancel": "No",
+      "deleteSuccess": "successfully",
+      "noActionChosen": "No action chosen",
+      "noItemSelected": "No item selected"
+    }
+  },
+  "navigation": {
+    "dashboard": "Overview",
+    "users": "User",
+    "songs": "Song"
+  },
+  "pages": {
+    "notfound": {
+      "title": "Page not found"
+    },
+    "forbidden": {
+      "title": "Forbidden"
+    },
+    "admin": {
+      "dashboard": {
+        "title": "Overview"
+      },
+      "users": {
+        "title": "User",
+        "create": {
+          "title": "Add user",
+          "description": "User information",
+          "extraDescription": "Detail user information"
+        },
+        "edit": {
+          "title": "Edit user",
+          "description": "User information",
+          "extraDescription": "Edit user information"
+        },
+        "changePassword": {
+          "title": "Change password",
+          "description": "Change password",
+          "extraDescription": "User password information"
+        },
+        "label": {
+          "name": "Name",
+          "email": "Email",
+          "password": "Password",
+          "phone": "Phone",
+          "group": "Group",
+          "status": "Status",
+          "activate": "Verified?",
+          "verifyType": "Verify Type",
+          "dateCreated": "Date created",
+          "delete": "Delete",
+          "enable": "Enable",
+          "disable": "Disable",
+          "selectGroup": "Select Group",
+          "selectStatus": "Select Status",
+          "selectVerifyType": "Select Verify Type",
+          "oldPassword": "Old password",
+          "newPassword": "New password",
+          "repeatNewPassword": "Repeat new password",
+          "changePassword": "Change password",
+          "search": "Find by email, name, mobile number"
+        },
+        "msg": {
+          "nameIsRequired": "Name is required",
+          "emailIsRequired": "Email is required",
+          "emailInvalid": "Email Invalid",
+          "passwordIsRequired": "Password is required",
+          "groupIsRequired": "Group is required",
+          "statusIsRequired": "Status is required",
+          "verifyTypeIsRequired": "Verify type is required",
+          "oldPasswordIsRequired": "Old password is required",
+          "newPasswordIsRequired": "New password is required",
+          "repeatNewPasswordIsRequired": "Repeat new password is required",
+          "createSuccess": "User created successfully",
+          "updateSuccess": "User updated successfully",
+          "changePasswordSuccess": "Change user password successfully"
+        }
+      },
+      "login": {
+        "title": "Login",
+        "label": {
+          "email": "Email",
+          "password": "Password",
+          "login": "Login"
+        },
+        "msg": {
+          "emailIsRequired": "Please type your email",
+          "emailInvalid": "Please input a valid email",
+          "passwordIsRequired": "Please type your password"
+        }
+      },
+      "songs": {
+        "title": "Song",
+        "create": {
+          "title": "Import songs",
+          "description": "Song information",
+          "extraDescription": "Detail song information"
+        },
+        "edit": {
+          "title": "Edit song",
+          "description": "Song information",
+          "extraDescription": "Edit song information"
+        },
+        "label": {
+          "name": "Name",
+          "title": "Title",
+          "artist": "Artist",
+          "nctkey": "NCT ID",
+          "status": "Status",
+          "genre": "Genre",
+          "downloadstatus": "Download status",
+          "dateCreated": "Date created",
+          "delete": "Delete",
+          "enable": "Enable",
+          "disable": "Disable",
+          "selectStatus": "Select Status",
+          "selectFiles": "Select files",
+          "import": "Start import",
+          "titleUploadNotification": "Songs import",
+          "download": "Download to server",
+          "downloadLink": "Download link",
+          "listenLink": "Listen link",
+          "search": "Find by ID, name, title, artist, NCT key, album, genre",
+          "size": "Size",
+          "channel": "Channel"
+        },
+        "msg": {
+          "fileTypeAllowed": "File type xlsx,xls is accepted.",
+          "uploadZero": "No songs to be updated.",
+          "uploadSuccess": " songs has been updated successfully.",
+          "putToQueueDowloadSuccess":
+            "Song <strong>###name###</strong> has been putted to queue.",
+          "nameUpdateSuccess":
+            "Song name <strong>###name###</strong> has been updated.",
+          "artistUpdateSuccess":
+            "Song artist of <strong>###name###</strong> has been updated.",
+          "genreUpdateSuccess":
+            "Genre of <strong>###name###</strong> has been updated.",
+          "statusUpdateSuccess":
+            "Status of <strong>###name###</strong> has been updated.",
+          "downloadstatusUpdateSuccess":
+            "Download Status of <strong>###name###</strong> has been updated.",
+          "updateSuccess": "Song updated successfully"
+        }
+      },
+      "dashboards": {
+        "title": "Dashboard",
+        "label": {
+          "dateCreated": "Date created (Day/Month/Year)",
+          "logger": "From",
+          "level": "Level",
+          "message": "Message",
+          "context": "Context"
+        }
+      }
+    },
+    "site": {
+      "home": {
+        "title": "Home"
+      }
+    }
+  }
+}

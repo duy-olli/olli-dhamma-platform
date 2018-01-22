@@ -1,0 +1,7 @@
+apps:
+  - script   : ./node_modules/nuxt/bin/nuxt-start
+    name     : 'olli-music'
+    instances: 4
+    exec_mode: cluster
+    env    :
+      NODE_ENV: production
