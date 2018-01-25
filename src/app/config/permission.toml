@@ -26,10 +26,7 @@ User = ['v1:index|logout']
 User = [
   'v1:index|*',
 ]
-Song = [
-  'v1:index|*'
-]
-Youtube = [
+Dhamma = [
   'v1:index|*'
 ]
 Dashboard = [

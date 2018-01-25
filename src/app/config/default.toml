@@ -1,8 +1,8 @@
-prefix = '_music-olli_'
-title = 'Music OLLI'
+prefix = '_dhamma-olli_'
+title = 'Dhamma OLLI'
 supportedLocales = ['en-us', 'vi-vn']
 timezone = 'Asia/Ho_Chi_Minh'
-modules = ['core', 'user', 'dashboard']
+modules = ['core', 'user', 'dashboard', 'dhamma']
 
 [idv3]
 mutagenInspect = '/usr/local/bin/mutagen-inspect'
@@ -13,7 +13,7 @@ lifetime = 86400
 adapter = 'Libmemcached'
 [cache.client]
 \Memcached::OPT_HASH = '\Memcached::HASH_MD5'
-\Memcached::OPT_PREFIX_KEY = '_music-olli_.'
+\Memcached::OPT_PREFIX_KEY = '_dhamma-olli_.'
 
 [logger]
 path = '/app/storage/logs/'

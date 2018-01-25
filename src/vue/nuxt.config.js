@@ -28,7 +28,7 @@ module.exports = {
     middleware: ['i18n', 'check-auth']
   },
   head: {
-    titleTemplate: '%s - Music OLLI',
+    titleTemplate: '%s - Dhamma OLLI',
     meta: [
       { charset: 'utf-8' },
       {
