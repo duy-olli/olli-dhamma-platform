@@ -11,7 +11,9 @@
     "build-production": "cross-env NODE_ENV=production nuxt build",
     "build-staging": "cross-env NODE_ENV=staging nuxt build",
     "start-production": "cross-env NODE_ENV=production nuxt start",
-    "start-staging": "cross-env NODE_ENV=staging nuxt start"
+    "start-staging": "cross-env NODE_ENV=staging nuxt start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/component-cache": "^1.1.1",
@@ -47,6 +49,8 @@
     "vue-template-compiler": "^2.5.9",
     "vuex-router-sync": "^5.0.0",
     "webpack-node-externals": "^1.6.0",
-    "whatwg-fetch": "^2.0.3"
-  }
+    "whatwg-fetch": "^2.0.3",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
